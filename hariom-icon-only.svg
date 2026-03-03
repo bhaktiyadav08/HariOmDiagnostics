@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Icon: Stylized Microscope -->
+  <g transform="translate(10, 10)">
+    <!-- Base -->
+    <rect x="15" y="55" width="30" height="3" fill="#1e40af" rx="2"/>
+    
+    <!-- Arm -->
+    <path d="M 30 55 L 30 15 L 38 7" stroke="#1e40af" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    
+    <!-- Eyepiece -->
+    <circle cx="38" cy="7" r="4" fill="url(#blueGradient)"/>
+    <circle cx="38" cy="7" r="2.5" fill="#60a5fa"/>
+    
+    <!-- Stage -->
+    <rect x="26" y="33" width="15" height="2.5" fill="#3b82f6" rx="1"/>
+    
+    <!-- Objective lenses -->
+    <circle cx="33.5" cy="38" r="3.5" fill="#1e40af"/>
+    <circle cx="33.5" cy="38" r="2" fill="#60a5fa"/>
+    
+    <!-- Sample slide -->
+    <rect x="27" y="42" width="13" height="1.5" fill="#93c5fd" rx="1"/>
+    
+    <!-- Light source -->
+    <circle cx="30" cy="50" r="2.5" fill="#60a5fa" opacity="0.6"/>
+    
+    <!-- Decorative DNA helix accent -->
+    <g transform="translate(42, 25)" opacity="0.4">
+      <circle cx="0" cy="0" r="1.2" fill="#3b82f6"/>
+      <circle cx="2.5" cy="4" r="1.2" fill="#3b82f6"/>
+      <circle cx="0" cy="8" r="1.2" fill="#3b82f6"/>
+      <path d="M 0 0 Q 2.5 2 2.5 4 Q 2.5 6 0 8" stroke="#3b82f6" stroke-width="0.5" fill="none"/>
+    </g>
+  </g>
+</svg>

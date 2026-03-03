@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Icon: Stylized Microscope -->
+  <g transform="translate(20, 20)">
+    <!-- Base -->
+    <rect x="15" y="75" width="50" height="4" fill="#1e40af" rx="2"/>
+    
+    <!-- Arm -->
+    <path d="M 40 75 L 40 25 L 50 15" stroke="#1e40af" stroke-width="3" fill="none" stroke-linecap="round"/>
+    
+    <!-- Eyepiece -->
+    <circle cx="50" cy="15" r="5" fill="url(#blueGradient)"/>
+    <circle cx="50" cy="15" r="3" fill="#60a5fa"/>
+    
+    <!-- Stage -->
+    <rect x="35" y="48" width="20" height="3" fill="#3b82f6" rx="1"/>
+    
+    <!-- Objective lenses -->
+    <circle cx="45" cy="55" r="4" fill="#1e40af"/>
+    <circle cx="45" cy="55" r="2" fill="#60a5fa"/>
+    
+    <!-- Sample slide -->
+    <rect x="37" y="60" width="16" height="2" fill="#93c5fd" rx="1"/>
+    
+    <!-- Light source -->
+    <circle cx="40" cy="70" r="3" fill="#60a5fa" opacity="0.6"/>
+    
+    <!-- Decorative DNA helix accent -->
+    <g transform="translate(55, 35)" opacity="0.4">
+      <circle cx="0" cy="0" r="1.5" fill="#3b82f6"/>
+      <circle cx="3" cy="5" r="1.5" fill="#3b82f6"/>
+      <circle cx="0" cy="10" r="1.5" fill="#3b82f6"/>
+      <path d="M 0 0 Q 3 2.5 3 5 Q 3 7.5 0 10" stroke="#3b82f6" stroke-width="0.5" fill="none"/>
+    </g>
+  </g>
+  
+  <!-- Text: HariOm Diagnostics -->
+  <g transform="translate(110, 45)">
+    <!-- Main name -->
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#1e40af">
+      HariOm
+    </text>
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#3b82f6" letter-spacing="2">
+      DIAGNOSTICS
+    </text>
+    
+    <!-- Tagline/accent line -->
+    <line x1="0" y1="35" x2="100" y2="35" stroke="#60a5fa" stroke-width="2"/>
+  </g>
+</svg>
