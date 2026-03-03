@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
         text += "Message: " + encodeURIComponent(message) + "%0A";
       }
 
-      var whatsappNumber = "91XXXXXXXXXX"; // Replace with actual number
+      var whatsappNumber = "918668234960"; // Replace with actual number
       var waUrl = "https://wa.me/" + whatsappNumber + "?text=" + text;
       window.open(waUrl, "_blank");
     });
